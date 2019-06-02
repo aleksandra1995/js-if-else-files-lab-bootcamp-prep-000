@@ -9,7 +9,7 @@ if (index.name === "Joe") {
 
 
 if (index.height === 70) {
-    console.log("The height is correct")
+    console.log("Expected: 70, Received: "+index.height")
 } else {
-    console.log("Expected: 70, Received: "+index.height)
+    console.log("The height is correct")
 }
